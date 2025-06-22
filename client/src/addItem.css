@@ -1,0 +1,44 @@
+.add-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.add-form input {
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.add-form input::placeholder {
+    color: #aaa;
+}
+
+.btnGreen {
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btnGreen:hover {
+    background-color: #218838;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.btnGreen:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
